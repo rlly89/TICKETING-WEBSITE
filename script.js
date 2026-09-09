@@ -47,6 +47,38 @@ bookingForm.addEventListener("submit", function (e) {
 
     bookingForm.reset();
 });
+function changeColor(red) { 
+document.getElementById("home").style.color = "red"; 
+
+} 
+
+
+function makeRed() { 
+    document.getElementById("home").style.color = "red"; 
+
+} 
+
+function makeBlue() { 
+    document.getElementById("home").style.color = "blue"; 
+
+}
+
+
+function yellowBackground() { 
+    document.body.style.backgroundColor = "yellow"; 
+
+} 
+function blueBackground() { 
+    document.body.style.backgroundColor = "lightblue"; } 
+
+function whiteBackground() { 
+    document.body.style.backgroundColor = "white"; 
+
+}    
+function changeMessage() {
+	document.getElementById("message").innerHTML=
+	"Thank you for visiting our website!";
+}	
 
 // Smooth scrolling for navigation
 document.querySelectorAll('nav a').forEach(link => {
